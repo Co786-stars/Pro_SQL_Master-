@@ -24,3 +24,4 @@ To provide a structured, easy-to-follow collection of SQL queries and explanatio
 - Clone the repo:  
   ```bash
   git clone https://github.com/your-username/sql-complete-notes.git
+

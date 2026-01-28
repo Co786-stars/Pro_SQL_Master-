@@ -1,0 +1,108 @@
+🧠 SQL Coding Practice — INSERT INTO Edition
+
+
+---------------------------------------------------------------------------------------------------
+🔸Question 1: 📱 App Users Table — Data Entry  
+  Insert sample users into the AppUsers table for a mobile app. Use the following details:
+- Table: AppUsers
+- Columns: User_ID, Username, Email, Signup_Date
+
+  Insert these records:
+- Username: NeoTechie, Email: neo@techmail.com, Signup_Date: 2025-09-01
+- Username: PixelQueen, Email: pixel@designhub.com, Signup_Date: 2025-09-05
+- Username: CodeKnight, Email: knight@devverse.io, Signup_Date: 2025-09-10
+
+📝Note:
+- User_ID is auto-incremented, so omit it.
+- Email must be unique.
+- Use proper SQL syntax and end with a semicolon.
+------------------------------------------------------------------------------------------------------
+
+
+
+
+
+------------------------------------------------------------------------------------------------------
+🔸Question 2: 🛒 Product Inventory — Data Entry
+  Insert product records into the Products table for an e-commerce store. Use the following details:
+- Table: Products
+- Columns: Product_ID, Product_Name, Price, Stock_Quantity, Category
+
+  Insert these records:
+- Product_Name: Herbal Shampoo, Price: 299.99, Stock_Quantity: 50, Category: Haircare
+- Product_Name: Glow Serum, Price: 499.50, Stock_Quantity: 30, Category: Skincare
+- Product_Name: Aloe Facewash, Price: 199.00, Stock_Quantity: 100, Category: Cleanser
+
+📝Note:
+- Product_ID is manually assigned.
+- Stock_Quantity defaults to 0 if not provided.
+- Use proper SQL syntax and end with a semicolon.
+-----------------------------------------------------------------------------------------------------
+
+
+
+
+
+---------------------------------------------------------------------------------------------
+🔸Question 3: 🎓 Course Enrollment — Data Entry
+  Insert enrollment records into the Enrollment table to track student-course registrations. 
+  Use the following details:
+
+- Table: Enrollment
+- Columns: Enrollment_ID, Student_Roll, Course_Code, Enroll_Date
+
+  Insert these records:
+- Student_Roll: 202101, Course_Code: CS101, Enroll_Date: 2025-08-20
+- Student_Roll: 202102, Course_Code: DS201, Enroll_Date: 2025-08-22
+- Student_Roll: 202101, Course_Code: DS201, Enroll_Date: 2025-08-25
+
+📝Note:
+- Enrollment_ID is auto-generated.
+- No duplicate combination of Student_Roll and Course_Code.
+- Use proper SQL syntax and end with a semicolon.
+------------------------------------------------------------------------------------------
+
+
+
+
+
+------------------------------------------------------------------------------------------
+🔸Question 4: 🧾 Invoice Records — Data Entry
+  Insert billing records into the Invoices table. Use the following details:
+- Table: Invoices
+- Columns: Invoice_ID, Customer_Name, Amount, Paid_Status, Due_Date
+
+  Insert these records:
+- Customer_Name: Riya Sharma, Amount: 1500.00, Paid_Status: Pending, Due_Date: 2025-10-05
+- Customer_Name: Arjun Mehta, Amount: 2750.50, Paid_Status: Paid, Due_Date: 2025-09-30
+- Customer_Name: Sneha Kapoor, Amount: 999.99, Paid_Status: Pending, Due_Date: 2025-10-10
+
+📝Note:
+- Invoice_ID is auto-generated.
+- Paid_Status defaults to 'Pending' if not provided.
+- Use proper SQL syntax and end with a semicolon.
+-------------------------------------------------------------------------------------------
+
+
+
+
+
+-------------------------------------------------------------------------------------------
+🔸Question 5: 🧑‍💼 Employee Attendance — Data Entry  
+  Insert attendance records into the Attendance table. Use the following details:
+- Table: Attendance
+- Columns: Record_ID, Employ_ID, Date, Status
+  
+  Insert these records:
+- Employ_ID: 101, Date: 2025-09-28, Status: Present
+- Employ_ID: 102, Date: 2025-09-28, Status: Absent
+- Employ_ID: 103, Date: 2025-09-28, Status: Leave
+- Employ_ID: 101, Date: 2025-09-29, Status: Present
+- Employ_ID: 102, Date: 2025-09-29, Status: Present
+
+📝Note:
+- Record_ID is auto-generated.
+- Status must be one of 'Present', 'Absent', 'Leave'.
+- Use proper SQL syntax and end with a semicolon.
+-------------------------------------------------------------------------------------------
+
